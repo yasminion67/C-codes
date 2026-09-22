@@ -7,7 +7,7 @@ int main() {
 
     if(saque % 10 >= 1){
         printf("Não é possivel sacar R$%d\n", saque);
-        reutrn 1;
+        return 1;
     }
 
     cedulas = saque / 50; //qntd de notas de 50
